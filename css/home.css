@@ -1,0 +1,478 @@
+/* BANNER SECTION CSS CODE SATRT  */
+.banner_img {
+    background-image: url("../image/JUKT973.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.side_banner {
+    position: relative;
+    position: absolute;
+    width: 65%;
+    height: 100% !important;
+    background-color: #116eee;
+    z-index: 1;
+    transform: skewX(14deg);
+    left: -7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side_banner .content_box {
+    width: 550px;
+    height: 400px !important;
+    /* border: 1px solid rgb(0, 204, 255); */
+    transform: skewX(-14deg);
+}
+
+.side_banner .content_box h1 {
+    font-weight: bold;
+    color: white;
+}
+
+.side_banner .content_box h2 {
+    font-weight: bold;
+    color: white;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
+
+.side_banner .content_box .explore_button {
+    display: inline-block;
+    margin-top: 30px !important;
+    padding: 15px 15px;
+    font-size: 1.7rem;
+    outline: none;
+    border: none;
+    background-color: rgb(84, 167, 140);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.side_banner .content_box .explore_button:hover {
+    background-color: rgb(83, 187, 152);
+}
+
+/* ================== OFFER SECTION CSS CODE START ================== */
+.offer_content_box {
+    height: 253px;
+    overflow: hidden;
+    background-color: #cfd8d8;
+    border-radius: 8px;
+    margin: 50px 0;
+}
+
+.offer_content_box .left_side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.offer_content_box .left_side small {
+    margin: 5px 0;
+    font-weight: bold;
+    color: rgb(10, 116, 116);
+}
+
+.offer_content_box .left_side h2 {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.offer_content_box .offer_button {
+    margin: 10px 0;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.6rem;
+    outline: none;
+    border: none;
+    background-color: rgb(84, 167, 140);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ================== OFFER SECTION CSS CODE END ================== */
+
+
+.on_select_button {
+    background: var(--btn1-color) !important;
+    color: rgb(255, 255, 255);
+}
+
+/* BANNER SECTION CSS CODE END  */
+
+/* =================== COURSES SECTION START =================== */
+#software .course_top {
+    background-color: #af11ee;
+}
+
+#software .fee_amount {
+    background-color: #af11ee;
+}
+
+#hardware .course_top {
+    background-color: #68af05;
+}
+
+#hardware .fee_amount {
+    background-color: #68af05;
+}
+
+.courses_list .course_main_header h1 {
+    font-size: 4rem !important;
+}
+
+.courses_list .course_item {
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.courses_list .course_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    background-color: #116eee;
+    position: relative;
+    border-radius: 8px;
+}
+
+.courses_list .course_top .img_position {
+    transform: translateX(14px);
+    width: 100px;
+}
+
+.courses_list .course_buttom {
+    padding: 10px 5px;
+}
+
+.courses_list .course_buttom i {
+    color: rgb(200, 200, 4);
+}
+
+.courses_list .course_buttom .fee_amount {
+    padding: 5px 9px;
+    background-color: #116eee;
+    border-radius: 4px;
+}
+
+.courses_list .course_top .course_top_left {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.courses_list .course_top .course_top_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.all_button_action {
+    cursor: pointer;
+}
+
+/* =================== COURSES SECTION END =================== */
+
+
+
+/*================= OUR MEMBER SECTION START==================  */
+.member_box {
+    background-color: aliceblue;
+    box-shadow: 2px 2px 4px rgb(162, 157, 157);
+    border-radius: 10px;
+}
+
+/*================ OUR MEMBER SECTION END ====================== */
+
+/*================ FAQ SECTION SECTION START ====================== */
+.faq_box {
+    /* border: 1px solid red; */
+    width: calc(100vw - 50vw);
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+.faq_box button {
+    font-size: 1.8rem;
+}
+
+/*================ FAQ SECTION SECTION END ====================== */
+
+/* ================= CONTACT US CSS CODE START ===================== */
+/* contuct section style start  */
+.contuct_section {
+    padding: 8rem 0 8rem;
+    min-height: 100vh;
+}
+
+
+.contuct_section .contuct_item {
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.contuct_section .contuct_item:hover {
+    box-shadow: var(--inner-shadow);
+    transition: all 0.7s ease;
+
+}
+
+input:focus,
+textarea:focus {
+    border: none;
+    outline: none;
+}
+
+.contuct_section .contuct_item_inner {
+    padding: 3rem 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contuct_section .contuct_item_inner:hover {
+    /* background-color: #90def0; */
+    transition: all 2s ease;
+    text-decoration: none;
+}
+
+.btn_1 {
+    margin-top: 30px;
+    padding: 10px 25px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgb(10, 73, 245);
+    background-color: transparent;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: none;
+
+}
+
+.btn_1::after {
+    border-radius: 30px;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.contuct_section .contuct_item_inner i {
+    width: 6rem;
+    height: 6rem;
+    font-size: 4rem;
+    text-align: center;
+    color: var(--btn1-color);
+    /* color: rgb(10, 73, 245); */
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contuct_section .contuct_item_inner span {
+    display: block;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--text-black-700);
+    margin: 0.5rem;
+    text-transform: capitalize;
+}
+
+.contuct_section .contuct_item_inner p {
+    font-size: 1.6rem;
+    color: var(--text-black-600);
+    line-height: 1.6rem;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    word-break: break-all;
+}
+
+.contuct_section .contuct_form {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 5rem;
+}
+
+.contuct_section .w_50 {
+    padding: 0 1.5rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.contuct_section .input_group {
+    margin: 0 0 2.5rem;
+    transition: all 0.3s ease;
+    border-radius: 3rem;
+}
+
+.contuct_section .input_group::after {
+    border-radius: 3rem;
+}
+
+.contuct_section .input_group .input_controler {
+    width: 100%;
+    height: 4.5rem;
+    display: block;
+    border-radius: 3rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem;
+    padding: 0 1.5rem;
+    color: var(--text-black-700);
+}
+
+.contuct_section .input_group textarea.input_controler {
+    height: 18.4rem;
+    padding-top: 1.5rem;
+    resize: none;
+
+}
+
+.contuct_section .submite_btn {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: right;
+    padding: 0 1.5rem;
+}
+
+/* ================= CONTACT US CSS CODE END ===================== */
+
+
+/* MEDIA QUERY CODE START  */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: aliceblue;
+    }
+
+    .side_banner {
+        width: 100%;
+        transform: skewX(0deg);
+        left: 0;
+    }
+
+    .side_banner .content_box {
+        width: 98%;
+        transform: skewX(0deg);
+    }
+
+    .offer_content_box {
+        height: auto;
+        overflow: hidden;
+        margin: 20px 0;
+    }
+
+    .offer_content_box .offer_button {
+        padding: 8px;
+        font-size: 1.2rem;
+    }
+
+    .faq_box {
+        /* border: 1px solid red; */
+        width: calc(100vw - 5vw);
+        margin: 0 auto;
+        font-size: 1.6rem;
+    }
+
+    .contuct_section .contuct_item_inner {
+        /* padding: 3rem 1.5rem; */
+        border-radius: 1rem;
+        text-align: center;
+        width: 100%;
+        height: 170px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: aliceblue;
+    }
+
+    .side_banner {
+        width: 100%;
+        transform: skewX(0deg);
+        left: 0;
+    }
+
+    .side_banner .content_box {
+        width: 98%;
+        transform: skewX(0deg);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: aliceblue;
+    }
+
+    .side_banner {
+        width: 100%;
+        transform: skewX(0deg);
+        left: 0;
+    }
+
+    .side_banner .content_box {
+        width: 98%;
+        transform: skewX(0deg);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    body {
+        background-color: aliceblue;
+    }
+
+    .side_banner {
+        width: 100%;
+        transform: skewX(0deg);
+        left: 0;
+    }
+
+    .side_banner .content_box {
+        width: 98%;
+        transform: skewX(0deg);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: aliceblue;
+    }
+
+    .side_banner {
+        width: 100%;
+        transform: skewX(0deg);
+        left: 0;
+    }
+
+    .side_banner .content_box {
+        width: 98%;
+        transform: skewX(0deg);
+    }
+}
+
+/* MEDIA QUERY CODE END  */
