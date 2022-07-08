@@ -401,6 +401,10 @@ a:hover {
         height: 170px;
     }
 
+    .courses_list .course_main_header h1 {
+        font-size: 3rem !important;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
